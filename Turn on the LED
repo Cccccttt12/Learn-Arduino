@@ -1,0 +1,11 @@
+// C++ code
+
+void setup()
+{
+  pinMode(13,OUTPUT); // write the number of the pin connected to the LED
+}
+
+void loop()
+{
+  digitalWrite(13,HIGH); // turn on the LED on pin 13 (HIGH is the voltage level)
+}
