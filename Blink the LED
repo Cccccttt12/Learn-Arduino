@@ -1,0 +1,16 @@
+// C++ code
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  //everything in the loop will repeat again and again
+  
+  digitalWrite(13, HIGH); // turn on the LED on pin 13 (HIGH is the voltage level)
+  delay(5000); // Wait for 5000 millisecond(s) which means turn on the LED for 5 seconds
+  digitalWrite(13, LOW); // turn off the LED on pin 13 (LOW is the voltage level)
+  delay(1000); // Wait for 1000 millisecond(s) which means turn off the LED for 1 second
+}
